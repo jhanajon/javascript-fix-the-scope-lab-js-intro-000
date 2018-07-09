@@ -20,10 +20,11 @@ function add2(n) {
   //const two = 2
 }
 
-var funkyFunction = function outsideFunction() {
-  return function theFunk() {
+var funkyFunction = function funkyFunction() {
+  return function insideFunction() {
     return "FUNKY!"
   }
+  
 }
 
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
