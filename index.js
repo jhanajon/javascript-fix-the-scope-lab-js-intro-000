@@ -13,7 +13,7 @@ function yourAnimal() {
 }
 
 function add2(n) {
-  const n = 2
+n = 2
   return 'two' + n
 
   // Feel free to move things around!
