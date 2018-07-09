@@ -20,8 +20,8 @@ function add2(n) {
   //const two = 2
 }
 
-var funkyFunction = function theFunk() {
-  return function insideFunction() {
+var funkyFunction = function funkyFunction() {
+  return function theFunk() {
     return "FUNKY!"
   }
 
